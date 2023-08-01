@@ -40,23 +40,9 @@ The codebase given at https://github.com/richardr1126/ShutesAndLaddersGUI is for
 
 ---
 
-## ⚙️ Features
-
-Exception: 
-
----
-
-
-## 📂 Project Structure
-
-
-
-
----
-
 ## 🧩 Modules
 
-<details closed><summary>Root</summary>
+<summary>Root</summary>
 
 | File                                                                                                                 | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | ---                                                                                                                  | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -85,7 +71,6 @@ Exception:
 | [main.cpp](https://github.com/richardr1126/ShutesAndLaddersGUI/blob/main/main.cpp)                                   | This code snippet is the main function of a Qt-based application which includes a'GameWindow' component. First, it seeds the random number generator using the current time in milliseconds, which helps ensure randomness in gameplay. It then launches a Qt application instance, initializes a'GameWindow', and displays it by calling'show()'. The program then enters the primary event loop by calling'a.exec()'.                                                                          |
 | [gamewindow.h](https://github.com/richardr1126/ShutesAndLaddersGUI/blob/main/gamewindow.h)                           | The provided code defines the "GameWindow" class for a GUI-based game. It helps to manage the game functionalities like maintaining player objects, switching current player, initiating and resetting the game, and checking game win conditions. It also provides reactions to various button actions (start/end/undo game, roll, move) and functions relating to a game countdown timer.                                                                                                      |
 
-</details>
 
 ---
 
@@ -93,50 +78,8 @@ Exception:
 
 ### ✔️ Prerequisites
 
-Before you begin, ensure that you have the following prerequisites installed:
-> - `ℹ️ Requirement 1`
-> - `ℹ️ Requirement 2`
-> - `ℹ️ ...`
+> This program is meant to be built with Qt Creator.
 
-### 📦 Installation
-
-1. Clone the ShutesAndLaddersGUI repository:
-```sh
-git clone https://github.com/richardr1126/ShutesAndLaddersGUI
-```
-
-2. Change to the project directory:
-```sh
-cd ShutesAndLaddersGUI
-```
-
-3. Install the dependencies:
-```sh
-g++ -o myapp main.cpp
-```
-
-### 🎮 Using ShutesAndLaddersGUI
-
-```sh
-./myapp
-```
-
-### 🧪 Running Tests
-```sh
-Insert test command.
-```
-
----
-
-
-## 🗺 Roadmap
-
-> - [X] `ℹ️  Task 1: Implement X`
-> - [ ] `ℹ️  Task 2: Refactor Y`
-> - [ ] `ℹ️ ...`
-
-
----
 
 ## 🤝 Contributing
 
@@ -159,16 +102,3 @@ git push origin new-feature-branch
 7. Create a new pull request to the original project repository. In the pull request, describe the changes you've made and why they're necessary.
 The project maintainers will review your changes and provide feedback or merge them into the main branch.
 
----
-
-## 📄 License
-
-This project is licensed under the `ℹ️  INSERT-LICENSE-TYPE` License. See the [LICENSE](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository) file for additional info.
-
----
-
-## 👏 Acknowledgments
-
-> - `ℹ️  List any resources, contributors, inspiration, etc.`
-
----
